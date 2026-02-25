@@ -22,12 +22,14 @@
 
 <p align="center">
   <a href="https://github.com/tradewatch-io/python-sdk"><img src="https://img.shields.io/badge/python-sdk-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python SDK"></a>
-  <a href="https://github.com/tradewatch-io/typescript-sdk"><img src="https://img.shields.io/badge/typescript/js-sdk-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript/JS SDK"></a>
-  <a href="https://github.com/tradewatch-io/java-sdk"><img src="https://img.shields.io/badge/java-sdk-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java SDK"></a>
+  <a href="https://github.com/tradewatch-io/typescript-sdk"><img src="https://img.shields.io/badge/typescript-sdk-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript SDK"></a>
   <a href="https://github.com/tradewatch-io/go-sdk"><img src="https://img.shields.io/badge/go-sdk-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go SDK"></a>
-  <a href="https://github.com/tradewatch-io/csharp-sdk"><img src="https://img.shields.io/badge/csharp-sdk-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C# SDK"></a>
+  <a href="https://github.com/tradewatch-io/java-sdk"><img src="https://img.shields.io/badge/java-sdk-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java SDK"></a>
+  <a href="https://github.com/tradewatch-io/dotnet-sdk"><img src="https://img.shields.io/badge/dotnet-sdk-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET SDK"></a>
   <a href="https://github.com/tradewatch-io/php-sdk"><img src="https://img.shields.io/badge/php-sdk-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP SDK"></a>
   <a href="https://github.com/tradewatch-io/ruby-sdk"><img src="https://img.shields.io/badge/ruby-sdk-CC342D?style=flat-square&logo=ruby&logoColor=white" alt="Ruby SDK"></a>
+  <a href="https://github.com/tradewatch-io/swift-sdk"><img src="https://img.shields.io/badge/swift-sdk-FA7343?style=flat-square&logo=swift&logoColor=white" alt="Swift SDK"></a>
+  <a href="https://github.com/tradewatch-io/rust-sdk"><img src="https://img.shields.io/badge/rust-sdk-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust SDK"></a>
 </p>
 
 ---
@@ -66,17 +68,31 @@ TradeWatch provides a unified, industrial-grade API that consolidates fragmented
 
 ## Official SDKs
 
+TradeWatch currently provides official SDKs for:
+
+- Python
+- TypeScript
+- Go
+- Java
+- .NET
+- PHP
+- Ruby
+- Swift
+- Rust
+
 Integrate TradeWatch in your language of choice:
 
 | Language | Repository | Install |
 |:---|:---|:---|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18"> **Python** | [`python-sdk`](https://github.com/tradewatch-io/python-sdk) | `pip install tradewatch` |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18"> **TypeScript / JavaScript** | [`typescript-sdk`](https://github.com/tradewatch-io/typescript-sdk) | `npm install tradewatch` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18"> **TypeScript** | [`typescript-sdk`](https://github.com/tradewatch-io/typescript-sdk) | `npm install tradewatch` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="18"> **Go** | [`go-sdk`](https://github.com/tradewatch-io/go-sdk) | `go get github.com/tradewatch-io/go-sdk` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="18"> **Java** | [`java-sdk`](https://github.com/tradewatch-io/java-sdk) | [Maven Central](https://github.com/tradewatch-io/java-sdk) |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="18"> **Go** | [`go-sdk`](https://github.com/tradewatch-io/go-sdk) | `go get github.com/tradewatch-io/sdk` |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="18"> **C#** | [`csharp-sdk`](https://github.com/tradewatch-io/csharp-sdk) | [NuGet](https://github.com/tradewatch-io/csharp-sdk) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="18"> **.NET** | [`dotnet-sdk`](https://github.com/tradewatch-io/dotnet-sdk) | [NuGet](https://github.com/tradewatch-io/dotnet-sdk) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="18"> **PHP** | [`php-sdk`](https://github.com/tradewatch-io/php-sdk) | `composer require tradewatch-io/sdk` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="18"> **Ruby** | [`ruby-sdk`](https://github.com/tradewatch-io/ruby-sdk) | `gem install tradewatch` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="18"> **Swift** | [`swift-sdk`](https://github.com/tradewatch-io/swift-sdk) | [Swift Package Manager](https://github.com/tradewatch-io/swift-sdk) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="18"> **Rust** | [`rust-sdk`](https://github.com/tradewatch-io/rust-sdk) | [crates.io](https://github.com/tradewatch-io/rust-sdk) |
 
 ## Quick Start
 
@@ -86,18 +102,41 @@ Integrate TradeWatch in your language of choice:
 from tradewatch import Client
 
 client = Client(api_key="YOUR_API_KEY")
-quote = client.currencies.get_quote(symbol="EURUSD")
+quote = client.crypto.get_quote(symbol="BTCUSD")
 print(quote)
 ```
 
-#### JavaScript
+#### Go
 
-```javascript
-const { Client } = require("tradewatch");
+```go
+package main
 
-const client = new Client({ apiKey: "YOUR_API_KEY" });
-const quote = await client.currencies.getQuote({ symbol: "EURUSD" });
-console.log(quote);
+import (
+	"context"
+	"fmt"
+	"os"
+
+	tradewatch "github.com/tradewatch-io/go-sdk"
+)
+
+func main() {
+	limit := int32(56)
+	interval := *tradewatch.NewAccountUsageStatisticsInterval()
+
+	configuration := tradewatch.NewConfiguration()
+	apiClient := tradewatch.NewAPIClient(configuration)
+	resp, r, err := apiClient.AccountAPI.GetUsage(context.Background()).
+		Limit(limit).
+		Interval(interval).
+		Execute()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error when calling `AccountAPI.GetUsage``: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
+		return
+	}
+
+	fmt.Fprintf(os.Stdout, "Response from `AccountAPI.GetUsage`: %v\n", resp)
+}
 ```
 
 ## Getting Started
