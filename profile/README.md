@@ -68,18 +68,6 @@ TradeWatch provides a unified, industrial-grade API that consolidates fragmented
 
 ## Official SDKs
 
-TradeWatch currently provides official SDKs for:
-
-- Python
-- TypeScript
-- Go
-- Java
-- .NET
-- PHP
-- Ruby
-- Swift
-- Rust
-
 Integrate TradeWatch in your language of choice:
 
 | Language | Repository | Install |
