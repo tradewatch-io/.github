@@ -72,13 +72,13 @@ Integrate TradeWatch in your language of choice:
 
 | Language | Repository | Install |
 |:---|:---|:---|
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18"> **Python** | [`python-sdk`](https://github.com/tradewatch-io/python-sdk) | `pip install tradewatch` |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18"> **TypeScript** | [`typescript-sdk`](https://github.com/tradewatch-io/typescript-sdk) | `npm install tradewatch` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18"> **Python** | [`python-sdk`](https://github.com/tradewatch-io/python-sdk) | `pip install tradewatch-io` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18"> **TypeScript** | [`typescript-sdk`](https://github.com/tradewatch-io/typescript-sdk) | `npm install tradewatch-io` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="18"> **Go** | [`go-sdk`](https://github.com/tradewatch-io/go-sdk) | `go get github.com/tradewatch-io/go-sdk` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="18"> **Java** | [`java-sdk`](https://github.com/tradewatch-io/java-sdk) | [Maven Central](https://github.com/tradewatch-io/java-sdk) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="18"> **.NET** | [`dotnet-sdk`](https://github.com/tradewatch-io/dotnet-sdk) | [NuGet](https://github.com/tradewatch-io/dotnet-sdk) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="18"> **PHP** | [`php-sdk`](https://github.com/tradewatch-io/php-sdk) | `composer require tradewatch-io/sdk` |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="18"> **Ruby** | [`ruby-sdk`](https://github.com/tradewatch-io/ruby-sdk) | `gem install tradewatch` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="18"> **Ruby** | [`ruby-sdk`](https://github.com/tradewatch-io/ruby-sdk) | `gem install tradewatch-io` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="18"> **Swift** | [`swift-sdk`](https://github.com/tradewatch-io/swift-sdk) | [Swift Package Manager](https://github.com/tradewatch-io/swift-sdk) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="18"> **Rust** | [`rust-sdk`](https://github.com/tradewatch-io/rust-sdk) | [crates.io](https://github.com/tradewatch-io/rust-sdk) |
 
